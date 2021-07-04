@@ -10,7 +10,7 @@ import Modal from "./Modal";
 
 class Details extends React.Component<RouteComponentProps<{
   id: string}>> {
-  public state = { 
+    public state = { 
     loading: true, 
     showModal: false,
     name: "",
@@ -20,6 +20,7 @@ class Details extends React.Component<RouteComponentProps<{
     media: [] as Photo[],
     url: "",
     breed: "" };
+
   public componentDidMount() {
     if(!this.props.id){
       navigate('/');
@@ -82,7 +83,7 @@ class Details extends React.Component<RouteComponentProps<{
               <h1>Would you like to adopt {name}?</h1>
               <div className="buttons">
                 <button onClick={this.adopt}>Yes</button>
-                <button onClick={this.toggleModal}>No, I am a monster</button>
+                <button onClick={this.toggleModal}>No</button>
               </div>
             </Modal>
           ) : null}
