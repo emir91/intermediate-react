@@ -1,7 +1,17 @@
 import React from "react";
 import { Link } from "@reach/router";
+import { Photo } from "@frontendmasters/pet"
 
-const Pet = props => {
+interface IProps {
+  animal: string;
+  name: string;
+  breed: string;
+  media: Photo[];
+  location: string;
+  id: number;
+}
+
+const Pet: React.FunctionComponent<IProps> = props => {
   const { name, animal, breed, media, location, id } = props;
 
   let hero = "http://placecorgi.com/300/300";
