@@ -1,1 +1,1 @@
-Ovaj repo je nastavak react-exercise-repo. Aplikacija i sve njene funkcionalnosti su ostale iste s tim sto sam ovdje ubacio server-side rendering i typescript. Pored tih izmjena, zamijenio sam i linter, te je sada koristim tslint.
+Ovaj repo je nastavak react-exercise-repo. Aplikacija i sve njene funkcionalnosti su ostale iste s tim sto sam ovdje ubacio server-side rendering i typescript. Pored tih izmjena, zamijenio sam i linter, te sada koristim tslint.
